@@ -1,0 +1,930 @@
+﻿/*=============================================================
+
+    Authour URI: www.binarytheme.com
+
+    License: Commons Attribution 3.0
+
+
+
+    http://creativecommons.org/licenses/by/3.0/
+
+
+
+    100% To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+
+   
+
+    ========================================================  */
+
+
+
+/*==============================================
+
+    MAIN BOX  STYLES    
+
+    =============================================*/
+
+.main-box {
+
+    text-align:center;
+
+    padding:20px;
+
+    border-radius:5px;
+
+    -moz-border-radius:5px ;
+
+    -webkit-border-radius:5px;
+
+    margin-bottom:40px;
+
+}
+
+    .main-box a,.main-box a:hover {
+
+        color:#fff;
+
+        text-decoration:none;
+
+
+
+    }
+
+.mb-dull {
+
+    background-color:#8F8F2C;
+
+}
+
+.mb-red {
+
+    background-color:#d36f2e;
+
+}
+
+.mb-pink {
+
+    background-color:#FF2F71;
+
+}
+
+    .main-box h5 {
+
+        font-size:16px;
+
+        font-weight:800;
+
+        text-transform:uppercase;
+
+    }
+
+/*==============================================
+
+    CHAT WINDOW  STYLES    
+
+    =============================================*/
+
+
+
+.chat-widget-main {
+
+    max-height:500px;
+
+    padding:20px;
+
+    overflow:auto;
+
+}
+
+.chat-widget-left:after {
+
+    top: 100%;
+
+    left: 10%;
+
+    border: solid transparent;
+
+    content: " ";
+
+    position: absolute;
+
+    border-top-color: #6792d5;
+
+    border-width: 15px;
+
+    margin-left: -15px;
+
+   
+
+}
+
+
+
+.chat-widget-left {
+
+    width: 100%;
+
+    height: auto;
+
+    padding: 15px;
+
+    -webkit-border-radius: 5px;
+
+    -moz-border-radius: 5px;
+
+    border-radius: 5px;
+
+    position: relative;
+
+    border: 1px solid #6792d5;
+
+    font-size:14px;
+
+   
+
+}
+
+.chat-widget-right:after {
+
+    top: 100%;
+
+    right: 10%;
+
+    border: solid transparent;
+
+    content: " ";
+
+    position: absolute;
+
+    border-top-color: #d51111;
+
+    border-width: 15px;
+
+    margin-left: -15px;
+
+}
+
+
+
+.chat-widget-right {
+
+    width: 100%;
+
+    height: auto;
+
+    padding: 15px;
+
+    -webkit-border-radius: 5px;
+
+    -moz-border-radius: 5px;
+
+    border-radius: 5px;
+
+    position: relative;
+
+    border: 1px solid #d51111;
+
+    font-size:14px;
+
+    
+
+}
+
+
+
+.chat-widget-name-left {
+
+    color: #6792d5;
+
+    margin-top: 30px;
+
+    margin-left: 60px;
+
+    text-align:left;
+
+    font-weight:900;
+
+    padding-bottom:20px;
+
+    font-size:16px;
+
+}
+
+.chat-widget-name-right {
+
+    color: #d51111;
+
+    margin-top: 30px;
+
+    margin-right: 60px;
+
+    font-size:16px;
+
+    text-align:right;
+
+    font-weight:900;
+
+    padding-bottom:20px;
+
+    
+
+
+
+}
+
+
+
+/*==============================================
+
+        Reviews Styles
+
+    =============================================*/
+
+#reviews {
+
+    min-height:180px;
+
+    background-color:#64A2DB;
+
+	padding:15px;
+
+}
+
+#reviews h4 {
+
+color: #fff;
+
+line-height: 30px;
+
+font-size: 16px;
+
+}
+
+#reviews .user-img {
+
+border: 2px solid #fff;
+
+overflow: hidden;
+
+border-radius: 50%;
+
+display: inline-block;
+
+}
+
+
+
+#reviews .img-u {
+
+   max-height: 90px;
+
+max-width: 90px;
+
+}
+
+
+
+#reviews .c-black {
+
+    color:#fff;
+
+    font-style: italic;
+
+font-size: 20px;
+
+padding: 5px;
+
+}
+
+
+
+/*==============================================
+
+        NOTICE BOX STYLES
+
+    =============================================*/
+
+
+
+.noti-box {
+
+min-height: 100px;
+
+color:#fff;
+
+padding: 20px;
+
+}
+
+.noti-box .icon-box {
+
+display: block;
+
+float: left;
+
+margin: 0 15px 10px 0;
+
+width: 70px;
+
+height: 70px;
+
+line-height: 75px;
+
+vertical-align: middle;
+
+text-align: center;
+
+font-size: 40px;
+
+}
+
+.bg-color-black {
+
+background-color: #424242;
+
+color: #fff;
+
+}
+
+.main-text {
+
+font-size: 25px;
+
+font-weight: 600;
+
+}
+
+.color-bottom-txt {
+
+font-size: 16px;
+
+line-height: 30px;
+
+}
+
+.panel-back {
+
+background-color: #929292;
+
+}
+
+
+
+/*==========================================
+
+   GALLERY/ PORTFOLIO STYLES
+
+    =====================================================*/
+
+
+
+#port-folio {
+
+    padding-top: 10px; 
+
+    padding-bottom: 100px; 
+
+}
+
+.portfolio-item {
+
+    border:1px solid #000;
+
+    margin:3px;
+
+}
+
+    .portfolio-item p {
+
+        padding:12px;
+
+        color:#fff;
+
+        line-height:25px;
+
+    }
+
+
+
+.portfolio-item .overlay {
+
+   
+
+  background-color: #000;
+
+  text-align: center;
+
+  padding-bottom:30px;
+
+  
+
+}
+
+
+
+/*==========================================
+
+   GALLERY/ PORTFOLIO FILTER STYLES
+
+    =====================================================*/
+
+ul#filters {
+
+	padding: 0px;
+
+}
+
+#filters {
+
+	margin: 3% 0;
+
+	padding: 0;
+
+	list-style: none;
+
+	text-align: center;
+
+}
+
+	#filters li {
+
+		display: -webkit-inline-box;
+
+	}
+
+	#filters li span {
+
+		display: block;
+
+		padding: 5px 4px;
+
+		text-decoration: none;
+
+		color: #d51111;
+
+		cursor: pointer;
+
+		font-size: 18px;
+
+	}
+
+ 	#port-folio .portfolio-item {
+
+		-webkit-box-sizing: border-box;
+
+		-moz-box-sizing: border-box;
+
+		-o-box-sizing: border-box;
+
+		width: 100%;		
+
+        opacity:.2;
+
+		float:left;
+
+		overflow:hidden;
+
+	}
+
+	
+
+    .shag{
+
+        float: right;
+
+        width: 100%;
+
+    }
+
+    .shag-title{
+
+        display: flex;
+
+        justify-content: space-around;
+
+
+
+    }
+
+    .oprosform{
+
+        display: flex;
+
+        flex-direction: column;
+
+        margin: 0 auto;
+
+        max-width: 350px;
+
+       
+
+    }
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    .opr1form{
+        padding-left: 15px;
+        max-width: 350px;
+
+        height: 50px;
+
+        border: 1px solid #4380B8;;
+
+        border-radius: 5px;
+
+        margin-top: 10px;
+
+        background-color: white;
+
+    }
+
+    #dopem{
+
+        color:forestgreen;
+
+        cursor: pointer;
+
+        margin-top: 20px;
+
+        margin-bottom: 10px;
+
+    }
+
+
+
+
+
+    .row.submit .btn.btn-primary {
+
+        display: none!important;
+
+    }
+
+
+.prod_item{
+    width: 300px;
+        height: 300px;
+}
+    .product_image{
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: url("https://cdn-icons-png.flaticon.com/128/3557/3557878.png"), auto;
+        border-radius: 10px;
+
+    }
+
+    .zayavkitable>tbody>tr>th{
+        text-align: center!important;
+        padding: 5px;
+       
+        border: 1px solid blue;;
+
+    }
+
+    .form-control{
+
+        width: unset;
+
+    }
+
+
+
+
+
+    #custom-preview-wrapper{
+
+        display: none;
+
+    }
+
+
+
+    #myModal{
+
+        overflow: scroll;
+
+    }
+
+   /* .crop_img{
+
+       width: 300px;
+
+       height: 500px;
+
+   } */
+
+   #delete_image{
+
+       background-color: red;
+
+       color: white;
+
+       margin-top: 10px;
+
+   }
+
+   .saveCropImage{
+
+       color: white;
+       background-color: darkgreen;
+       border: unset;
+       border-radius: 5px;
+       padding: 10px;
+       margin-top: 20px;
+   }
+
+   .fileQueue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:10px;
+    margin-top:25px;
+   }
+
+   .desc{
+
+       margin-top: 10px;
+
+   }
+
+  
+
+   .sledshag4{
+
+    border: 2px solid;
+
+    padding: 20px;
+
+    border-radius: 5px;
+
+    float: right;
+
+    font-size: 20px;
+
+    font-weight: bold; 
+
+    margin-top: 15px; 
+
+   }
+
+   .warning{
+
+       border: 2px solid red;
+
+   }
+
+   .order_products{
+
+       border:1px solid blue;
+
+       text-align: center;
+
+   }
+
+  .project_help{
+
+      background-color: teal;
+
+      color: white;
+
+      text-decoration: none;
+
+      padding: 5px;
+
+      border-radius: 5px;
+
+  }
+
+  .feedback{
+
+      margin-right: 15px;
+
+      border-radius: 20px;
+
+      padding: 5px 10px 5px 10px;
+
+      background-color: white;
+
+      border: 1px solid #4380B8;
+
+  }
+
+  .obs-poj{
+
+    display: flex;
+
+    justify-content: flex-end;
+
+  }
+
+  .copy_button{
+
+      background-color:  #4380B8;
+
+      color: white;
+
+      padding: 4px 10px 3px 10px;
+
+      border-radius: 5px;
+
+      border: 1px solid;
+
+  }
+
+  
+
+  /* modal */
+
+
+
+
+
+  
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+
+/* The Modal (background) */
+
+.feedbackmodal {
+
+  display: none; /* Hidden by default */
+
+  position: fixed; /* Stay in place */
+
+  z-index: 1; /* Sit on top */
+
+  padding-top: 100px; /* Location of the box */
+
+  left: 0;
+
+  top: 0;
+
+  width: 100%; /* Full width */
+
+  height: 100%; /* Full height */
+
+  overflow: auto; /* Enable scroll if needed */
+
+  background-color: rgb(0,0,0); /* Fallback color */
+
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+
+
+/* Modal Content */
+
+.feedbackmodal-content {
+
+  background-color: #fefefe;
+
+  margin: auto;
+
+  padding: 20px;
+
+  border: 1px solid #888;
+
+  width: 80%;
+
+}
+
+
+
+/* The Close Button */
+
+.feedbackclose {
+
+  color: #aaaaaa;
+
+  float: right;
+
+  font-size: 28px;
+
+  font-weight: bold;
+
+}
+
+
+
+.feedbackclose:hover,
+
+.feedbackclose:focus {
+
+  color: #000;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+}
+
+.warning{
+
+    border:2px solid red
+
+}
+
+.silkasaytacopi{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-muted{
+    color: #777;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+
+
+.shag-title>div{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shag-title>div>p {
+    text-align:center;
+}
+
+.dop_emil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.del_emil>i{
+   margin-left: 10px;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.allprodcontainer{
+    max-width:1120px!important;
+    width:unset!important;
+}
+
+.allproduct_items{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*@media screen and (max-width: 1500px) {*/
+/*    .allprodcontainer{*/
+/*        width:970px;*/
+/*    }*/
+    
+/*}*/
+/*@media screen and (max-width: 1300px) {*/
+/*    .allprodcontainer{*/
+/*        width:970px;*/
+/*    }*/
+    
+/*}*/
+
+#dragandrophandler>span{
+    text-align:center;
+}
+
+@media screen and (max-width: 500px){
+    .fileQueue{
+        margin-left:0px;
+    }
+    .text-muted{
+      width: 60px;
+      height: 60px;
+    }
+    .shag-title {
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+
+    .zayavkitable>tbody>tr>th{
+     font-size: 10px;
+     padding: 3px;
+
+    }
+}
+
+
+
+
+
+
+

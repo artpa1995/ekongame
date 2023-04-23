@@ -1,0 +1,28 @@
+AddDefaultCharset UTF-8
+
+AddDefaultCharset WINDOWS-1251
+# RewriteEngine On
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+
+# RewriteCond %{REQUEST_FILENAME} !-d
+
+# RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+
+
+
+
+RewriteEngine On
+
+# RewriteBase /My-Project/
+
+
+
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+
+RewriteRule ^ %1 [L,NE,R=302]
+
+
+
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]

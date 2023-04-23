@@ -1,0 +1,22 @@
+.container-fluid{
+	display: none;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #3F3F3F;
+}
+.error-text{
+	color: white;
+}
+.error_items{
+	width: 100%;
+	height: 100%;
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
