@@ -4,9 +4,7 @@ use Product;
 use Profile;
 
 class ProductsController  extends Controller {
-
     
-
     public function productsAction(){
 
         $product         = new Product();
@@ -20,9 +18,6 @@ class ProductsController  extends Controller {
         
         $this->render_products("products", ['products' => $products, 'users ' => $users , 'current_page' => 'products']);  
     }
-
-
-
 
     public function product_like1Action(){
         $product         = new Product();
@@ -38,14 +33,11 @@ class ProductsController  extends Controller {
         $all_productss   = $product->query_sql("  SELECT * FROM `product` WHERE user_id=$product_user_id AND id>$image_id LIMIT 2");
         $finish          = "0";
         if(empty($all_productss[0])){
-            $finish      = "1";
-            
+            $finish      = "1";   
         }
-
-        
      
         $res[]= ['image' => $all_products[0] ['image'], 'id' => $all_products[0]  ['id'], 'brand_name' => $all_products[0]  ['brand_name'], 'product_name' => $all_products[0]  ['product_name'], 'finish' => $finish];
-       echo json_encode($res);
+        echo json_encode($res);
     
     }
 
@@ -64,11 +56,6 @@ class ProductsController  extends Controller {
             echo "egjiejrgier";
         }
         $res[]= ['image' => $all_products[0] ['image'], 'id' => $all_products[0]  ['id'], 'brand_name' => $all_products[0]  ['brand_name'], 'product_name' => $all_products[0]  ['product_name'],];
-       echo json_encode($res);
-    
+        echo json_encode($res);
     }
-
-  
-
-
 }

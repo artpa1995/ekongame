@@ -36,8 +36,6 @@ class App{
             }
         }
        
-       
-       
         self::$currentController = $controller;
         $n = 3;
         if(is_numeric($uriArray[3])){
@@ -57,8 +55,6 @@ class App{
         $actionName = $action.'Action';
         $controllerFileName = $controllerName.'.php';
         
-         
-        
         if(file_exists(CONTROLLERS.$controllerFileName)){
             include_once(CONTROLLERS.$controllerFileName);
             
@@ -71,16 +67,11 @@ class App{
                     $controllerObj->$actionName();
                 }else{
                     throw new Exception("$actionName action not declared in $controllerName class",404);
-
                 }
 
             }else{
                 throw new Exception("$controllerName Class not declared",404);
-
             }
-
-
-
         }else{
             throw new Exception("$controllerFileName Controller File not found in ".CONTROLLERS,404);
         }

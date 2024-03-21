@@ -6,8 +6,6 @@ use Profile;
 
 class OrdersController  extends Controller {
 
-  
-
     public function ordersAction(){
         $products   = new Product();
         $users      = new Users();
@@ -33,9 +31,7 @@ class OrdersController  extends Controller {
         $message = $order_type."\r\n".$first_name."\r\n".$last_name."\r\n".$email."\r\n".$product_name."\r\n".$brand_name."\r\n".$time;
         $subject = 'Заказ товара';
 
-        if((!empty($email) && isset($email)) && (!empty($client_tel) && isset($client_tel)) && (!empty($first_name) && isset($first_name)) && (!empty($client_tel) && isset($client_tel))){
-
-            
+        if((!empty($email) && isset($email)) && (!empty($client_tel) && isset($client_tel)) && (!empty($first_name) && isset($first_name)) && (!empty($client_tel) && isset($client_tel))){ 
             $orders_insert = $orders->insert([
                 'shop_id'      => $userId,
                 'product_id'   => $product_id,
@@ -49,43 +45,25 @@ class OrdersController  extends Controller {
                 'email'        => $email,
                 'phone'        => $client_tel,
             
-                ]);
+            ]);
                 
-                if(isset($orders_insert) && !empty($orders_insert)){
-                    
-                      $headers = 'From: paruyr.kirakosyan1995@gmail.com ' . "\r\n" .
-                         'Reply-To: paruyr.kirakosyan1995@gmail.com '. "\r\n" .
-                         'X-Mailer: PHP/' . phpversion();
+            if(isset($orders_insert) && !empty($orders_insert)){
+                
+                $headers = 'From: paruyr.kirakosyan1995@gmail.com ' . "\r\n" .
+                    'Reply-To: paruyr.kirakosyan1995@gmail.com '. "\r\n" .
+                    'X-Mailer: PHP/' . phpversion();
 
-                        
-                    
-                    if(mail($first_email,$subject,$message,$headers)){
-                        foreach($profils_email2 as $email2) {
-                          $all_email  =  $email2['metta_value']."," ;
-                          $to         = $all_email;
-                        //   $headers = 'From: paruyr.kirakosyan1995@gmail.com ' . "\r\n" .
-    
-                        //      'Reply-To: paruyr.kirakosyan1995@gmail.com '. "\r\n" .
-            
-                        //      'X-Mailer: PHP/' . phpversion();
-    
-                            mail($to,$subject,$message,$headers);
-                       
-                        }
+                if(mail($first_email,$subject,$message,$headers)){
+                    foreach($profils_email2 as $email2) {
+                        $all_email  =  $email2['metta_value']."," ;
+                        $to         = $all_email;
+                    //   $headers = 'From: paruyr.kirakosyan1995@gmail.com ' . "\r\n" .
+                    //      'Reply-To: paruyr.kirakosyan1995@gmail.com '. "\r\n" .
+                    //      'X-Mailer: PHP/' . phpversion();
+                        mail($to,$subject,$message,$headers);
                     }
-                  
-           
                 }
-                
-                
-                
-
-         
+            }
         }
-
-        
-       
-    }
-  
+    } 
 }
-
